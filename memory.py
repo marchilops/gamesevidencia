@@ -1,5 +1,5 @@
 """Memory, puzzle game of number pairs.
-
+Rosa Hola
 Exercises:
 
 1. Count and print how many taps occur.

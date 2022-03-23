@@ -1,5 +1,5 @@
 """Pacman, classic arcade game.
-
+jijiji
 Exercises
 
 1. Change the board.

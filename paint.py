@@ -10,8 +10,8 @@ Exercises
 """
 
 from turtle import *
-
 from freegames import vector
+import math #agregar import math
 
 
 def line(start, end):
@@ -36,14 +36,41 @@ def square(start, end):
     end_fill()
 
 
-def circle(start, end):
+def circle(start, end): #Completar el círculo
     """Draw circle from start to end."""
-    pass  # TODO
+    pi = 3.141592
+    diametro = end.x - start.x
+    radio = diametro / 2
+    circunferencia = 2 * pi * radio
+    arco = circunferencia / 360
+    # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    for count in range(360):
+        forward(arco)
+        right(1)
+
+    end_fill()
 
 
-def rectangle(start, end):
-    """Draw rectangle from start to end."""
-    pass  # TODO
+def rectangle(start, end):#Completar rectangulo
+    "Draw rectangle from start to end."
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    #TODO
+    for i in range(2):
+        forward(end.x - start.x)
+        left(90)
+        forward(end.y - start.y)
+        left(90)
+
+    end_fill()
 
 
 def triangle(start, end):

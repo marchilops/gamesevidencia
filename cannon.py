@@ -1,7 +1,5 @@
 """Cannon, hitting targets with projectiles.
 
-Exercises jijiji
-
 1. Keep score by counting target hits.
 2. Vary the effect of gravity.
 3. Apply gravity to the targets.
@@ -13,8 +11,8 @@ from turtle import *
 
 from freegames import vector
 
-ball = vector(-200, -200)
-speed = vector(0, 0)
+ball = vector(-100, -100) #caida de la pelota modificada.
+speed = vector(500, 500) #velocidad de la pelota aumentada.
 targets = []
 
 
@@ -55,7 +53,7 @@ def move():
         targets.append(target)
 
     for target in targets:
-        target.x -= 0.5
+        target.x -= 3 #velocidad de los targets aumentada.
 
     if inside(ball):
         speed.y -= 0.35

@@ -1,6 +1,6 @@
 """Cannon, hitting targets with projectiles.
 
-Exercises
+Exercises jijiji
 
 1. Keep score by counting target hits.
 2. Vary the effect of gravity.

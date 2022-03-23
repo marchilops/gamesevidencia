@@ -73,9 +73,19 @@ def rectangle(start, end):#Completar rectangulo
     end_fill()
 
 
-def triangle(start, end):
+def triangle(start, end): #Completar un triángulo
     """Draw triangle from start to end."""
-    pass  # TODO
+    # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    lado = abs(end.x - start.x)
+    begin_fill()
+
+    for i in range (3):
+        forward(lado)
+        left(120)
+    end_fill()
 
 
 def tap(x, y):

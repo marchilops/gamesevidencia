@@ -92,7 +92,7 @@ def draw():
     write(nClicks, font=20)
     if pares == 32:
         goto(-100,200)
-        write("Juego Completado", font=20)
+        write("Juego Completado", font=20) #Señal de juego terminado
 
     update()
     ontimer(draw, 100)

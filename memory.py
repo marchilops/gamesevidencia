@@ -21,11 +21,11 @@ hide = [True] * 64
 
 
 def square(x, y):
-    """Draw white square with black outline at (x, y)."""
+    """Draw black square with pink outline at (x, y)."""
     up()
     goto(x, y)
     down()
-    color('black', 'white')
+    color('black', 'pink')
     begin_fill()
     for count in range(4):
         forward(50)

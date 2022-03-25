@@ -106,3 +106,8 @@ tracer(False)
 onscreenclick(tap)
 draw()
 done()
+
+
+#¿Podrías utilizar algo diferente a los dígitos para resolver el juego y que al usuario le ayude a tener mejor memoria?
+#Se podría verificar los segmentos del codigo y hacer una optimización del mismo, es el conjunto de fases de un compilador que transforman un fragmento de código en otro fragmento con un comportamiento equivalente y que se ejecuta de forma más eficiente. 
+#También cambiar la dinamica/formato del juego para que sea algo más dinamico y el usuario pueda entender mejor el juego y lo repita más veces.

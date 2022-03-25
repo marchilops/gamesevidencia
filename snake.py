@@ -11,7 +11,7 @@ Exercises
 import random
 from turtle import *
 from freegames import square, vector
-colors = ['blue', 'yellow', 'magenta', 'orange', 'green']
+colors = ['blue', 'yellow', 'magenta', 'orange', 'green'] #Cambio de colores
 
 food = vector(0, 0)
 snake = [vector(10, 0)]
